@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -11,20 +11,36 @@ import Contact from "./components/Contact";
 import Closing from "./components/Closing";
 import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Title />
-      <Intro />
-      <Skills />
-      <Education />
-      <Resume />
-      <Contact />
-      <Closing />
-      <Footer />
-    </div>
-  );
+import axios from "axios";
+
+class App extends Component {
+  componentWillMount() {
+    axios
+      .get("/hello")
+      .then(response => {
+        console.log(response);
+      })
+      .catch(err => console.log(err));
+  }
+
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <Title />
+        <Intro />
+        <Skills />
+        <Education />
+        <Resume />
+        <Contact />
+        <Closing />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
