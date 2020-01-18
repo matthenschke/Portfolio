@@ -5,7 +5,7 @@ const path = require("path");
 const PORT = process.env.PORT || 8000;
 
 app.get("/hello", (req, res) => {
-  res.send("Hello from backend!");
+  res.json("Hello from backend!");
 });
 
 // always do this step after route config or else it can override the routes
