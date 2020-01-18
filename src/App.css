@@ -226,6 +226,18 @@ header h2 i {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 480px) {
+  .school-info {
+    font-size: 1rem;
+  }
+  .degree p:nth-of-type(1) {
+    font-size: 1rem;
+  }
+  .degree p {
+    font-size: 0.7rem;
+  }
+}
+
 .education-info {
   margin-top: 50px;
   font-family: "Raleway", sans-serif !important;
@@ -293,6 +305,12 @@ header h2 i {
 @media screen and (max-width: 767px) {
   .info-box p {
     font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .info-box p {
+    font-size: 0.25rem;
   }
 }
 
