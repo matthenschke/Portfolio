@@ -21,7 +21,7 @@ const Skills = () => {
                 <i class="devicon-html5-plain-wordmark colored px-1 py-3"></i>
                 <i class="devicon-css3-plain-wordmark colored px-1 py-3"></i>
                 <i class="devicon-javascript-plain colored px-1 py-3"></i>
-                <i class="devicon-react-original colored px-1 py-3"></i>
+                <i class="devicon-react-original-wordmark colored px-1 py-3"></i>
                 <i class="devicon-jquery-plain-wordmark px-1 py-3"></i>
                 <i class="devicon-bootstrap-plain colored px-1 py-3"></i>
               </div>
@@ -45,6 +45,7 @@ const Skills = () => {
                 <i class="devicon-git-plain-wordmark colored px-1 py-3"></i>
                 <i class="devicon-heroku-original-wordmark colored px-1 py-3"></i>
                 <i class="devicon-linux-plain colored px-1 py-3"></i>
+                <i class="devicon-ubuntu-plain-wordmark colored px-1 py-3"></i>
               </div>
             </Col>
           </Row>

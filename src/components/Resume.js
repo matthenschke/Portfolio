@@ -1,11 +1,10 @@
 import React from "react";
 import resumeDocument from "../docs/resume.pdf";
 const Resume = () => {
-  console.log(resumeDocument);
   return (
     <div id="resume">
       <div className="container">
-        <h1 className="text-center">
+        <h1 className="text-center py-5">
           Do You Want To See My Resume?<span className="pl-2">📄</span>
         </h1>
         <embed
