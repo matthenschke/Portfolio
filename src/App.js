@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Title from "./components/Title";
-import Intro from "./components/Intro";
+import Hero from "./components/Hero";
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Resume from "./components/Resume";
@@ -17,10 +17,10 @@ class App extends Component {
   componentWillMount() {
     axios
       .get("/hello")
-      .then(response => {
+      .then((response) => {
         console.log(response);
       })
-      .catch(err => console.log(err));
+      .catch((err) => console.log(err));
   }
 
   constructor(props) {
@@ -30,8 +30,8 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <Title />
-        <Intro />
+        <Hero />
+        <About />
         <Skills />
         <Education />
         <Resume />

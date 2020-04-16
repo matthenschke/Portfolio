@@ -5,7 +5,9 @@ const Resume = () => {
   return (
     <div id="resume">
       <div className="container">
-        <h1 className="text-center">Do You Want To See My Resume?</h1>
+        <h1 className="text-center">
+          Do You Want To See My Resume?<span className="pl-2">📄</span>
+        </h1>
         <embed
           src={resumeDocument}
           width="100%"
