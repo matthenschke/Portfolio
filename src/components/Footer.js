@@ -2,15 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="mb-5">
+    <footer className="my-5 text-center font-italic">
       <p>Matthew Henschke &copy; {new Date().getFullYear()}</p>
-      <p>Web Design By: Matthew Henschke</p>
-      <span>
-        This website was created with React, Bootstrap and a dab of CSS
-        <span role="img" aria-label="winking-face" className="pl-2">
-          😉
-        </span>
-      </span>
+      <p>Web Design By: Matthew Henschke </p>
+      <p>This website was created with React, Bootstrap and a dab of CSS</p>
     </footer>
   );
 };

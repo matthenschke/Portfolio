@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-import Closing from "./components/Closing";
+// import Closing from "./components/Closing";
 import Footer from "./components/Footer";
 
 // import axios from "axios";
@@ -32,7 +32,7 @@ function App() {
       <Education />
       <Resume />
       <Contact />
-      <Closing />
+      {/* <Closing /> */}
       <Footer />
     </div>
   );

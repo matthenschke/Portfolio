@@ -33,7 +33,7 @@ const Education = () => {
             <div className="pt-3 degree">
               <h5 className="mb-0">
                 Bachelor's of Science
-                <span className="float-right">2016-2020</span>
+                <span className="float-md-right pl-3">2016-2020</span>
               </h5>
               <p className="mb-1">Computer Science</p>
             </div>

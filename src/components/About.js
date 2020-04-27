@@ -6,7 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const About = () => {
   return (
     <ScrollAnimation animateIn="jackInTheBox">
-      <div id="about">
+      <div id="about" className="mt-5">
         <Container>
           <h1 className="text-center">
             Who is this guy?

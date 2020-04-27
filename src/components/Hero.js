@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import titleImg from "../imgs/me.JPG";
-import { Container, Jumbotron, Button } from "react-bootstrap";
+import { Jumbotron } from "react-bootstrap";
 
 const Hero = () => {
   return (
