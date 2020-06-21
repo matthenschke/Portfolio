@@ -139,12 +139,7 @@ const Projects = () => {
               </div>
               <Card.Body>
                 <Card.Title>Stock Portfolio Website</Card.Title>
-                <Card.Text>
-                  A web application that extracts song lyrics using web-scraping
-                  techniques and the Genius API where sentiment analysis can be
-                  performed using IBM Watson’s Natural Language Understanding
-                  API
-                </Card.Text>
+
                 <span className="bg-success p-1 m-1 text-white rounded proj-tech">
                   Express
                 </span>
