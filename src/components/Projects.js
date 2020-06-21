@@ -133,7 +133,7 @@ const Projects = () => {
             </Card>
           </Col>
           <Col lg={4} className="mb-5">
-            <Card className="shadow my-5 text-center h-100">
+            <Card className="shadow text-center h-100">
               <div className="proj-img">
                 <Card.Img variant="top" src={StockImg} alt="lyric analysis" />
               </div>
