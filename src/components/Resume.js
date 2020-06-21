@@ -6,7 +6,10 @@ const Resume = () => {
     <div id="resume">
       <Container>
         <h1 className="text-center py-5">
-          Do You Want To See My Resume?<span className="pl-2">📄</span>
+          Do You Want To See My Resume?
+          <span className="pl-2" role="img" aria-label="file">
+            📄
+          </span>
         </h1>
         <embed
           src={resumeDocument}

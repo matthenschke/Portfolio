@@ -27,10 +27,18 @@ const Contact = () => {
             <div className="info-box ml-auto">
               <h2 className="text-center">Let's Connect!</h2>
               <div className="text-center mb-1">
-                <a href="https://github.com/matthenschke">
+                <a
+                  href="https://github.com/matthenschke"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fab fa-github-square"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/matthewhenschke/">
+                <a
+                  href="https://www.linkedin.com/in/matthewhenschke/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <i className="fab fa-linkedin"></i>
                 </a>
               </div>

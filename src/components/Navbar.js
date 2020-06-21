@@ -10,7 +10,7 @@ export default () => {
         setScroll(scrollCheck);
       }
     });
-  });
+  }, [scroll]);
   return (
     <Navbar
       expand="md"
@@ -30,6 +30,9 @@ export default () => {
           </Nav.Link>
           <Nav.Link href="#skills" className="px-2">
             Skills
+          </Nav.Link>
+          <Nav.Link href="#projects" className="px-2">
+            Projects
           </Nav.Link>
           <Nav.Link href="#education" className="px-2">
             Education

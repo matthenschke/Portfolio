@@ -17,7 +17,9 @@ const Hero = () => {
         <h1>Matthew Henschke</h1>
         <h5>
           Software Developer/Engineer
-          <span className="pl-2">💻</span>
+          <span className="pl-2" role="img" aria-label="computer">
+            💻
+          </span>
         </h5>
       </div>
     </Jumbotron>

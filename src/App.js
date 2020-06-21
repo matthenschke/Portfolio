@@ -8,31 +8,20 @@ import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-// import Closing from "./components/Closing";
 import Footer from "./components/Footer";
-
-// import axios from "axios";
+import Projects from "./components/Projects";
 
 function App() {
-  // componentWillMount() {
-  //   axios
-  //     .get("/hello")
-  //     .then((response) => {
-  //       console.log(response);
-  //     })
-  //     .catch((err) => console.log(err));
-  // }
-
   return (
     <div>
       <Navbar />
       <Hero />
       <About />
       <Skills />
+      <Projects />
       <Education />
       <Resume />
       <Contact />
-      {/* <Closing /> */}
       <Footer />
     </div>
   );

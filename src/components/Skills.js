@@ -18,34 +18,34 @@ const Skills = () => {
             <Col md={5} className="shadow py-3 mr-1 mb-5">
               <h4 className="text-center">Front-End</h4>
               <div className="d-flex flex flex-wrap justify-content-center skill-container mt-3">
-                <i class="devicon-html5-plain-wordmark colored px-1 py-3"></i>
-                <i class="devicon-css3-plain-wordmark colored px-1 py-3"></i>
-                <i class="devicon-javascript-plain colored px-1 py-3"></i>
-                <i class="devicon-react-original-wordmark colored px-1 py-3"></i>
-                <i class="devicon-jquery-plain-wordmark px-1 py-3"></i>
-                <i class="devicon-bootstrap-plain colored px-1 py-3"></i>
+                <i className="devicon-html5-plain-wordmark colored px-1 py-3"></i>
+                <i className="devicon-css3-plain-wordmark colored px-1 py-3"></i>
+                <i className="devicon-javascript-plain colored px-1 py-3"></i>
+                <i className="devicon-react-original-wordmark colored px-1 py-3"></i>
+                <i className="devicon-jquery-plain-wordmark px-1 py-3"></i>
+                <i className="devicon-bootstrap-plain colored px-1 py-3"></i>
               </div>
             </Col>
             <Col md={5} className="shadow py-3 mb-5">
               <h4 className="text-center">Back-End</h4>
               <div className="d-flex flex flex-wrap justify-content-center skill-container mt-3">
-                <i class="devicon-cplusplus-plain colored px-1 py-3"></i>
-                <i class="devicon-java-plain-wordmark colored px-1 py-3"></i>
-                <i class="devicon-python-plain-wordmark colored px-1 py-3"></i>
-                <i class="devicon-nodejs-plain colored px-1 py-3"></i>
-                <i class="devicon-express-original-wordmark px-1 py-3"></i>
-                <i class="devicon-typescript-plain colored px-1 py-3"></i>
-                <i class="devicon-mysql-plain-wordmark colored px-1 py-3"></i>
-                <i class="devicon-mongodb-plain-wordmark colored px-1 py-3"></i>
+                <i className="devicon-cplusplus-plain colored px-1 py-3"></i>
+                <i className="devicon-java-plain-wordmark colored px-1 py-3"></i>
+                <i className="devicon-python-plain-wordmark colored px-1 py-3"></i>
+                <i className="devicon-nodejs-plain colored px-1 py-3"></i>
+                <i className="devicon-express-original-wordmark px-1 py-3"></i>
+                <i className="devicon-typescript-plain colored px-1 py-3"></i>
+                <i className="devicon-mysql-plain-wordmark colored px-1 py-3"></i>
+                <i className="devicon-mongodb-plain-wordmark colored px-1 py-3"></i>
               </div>
             </Col>
             <Col md={5} className="shadow py-3 mb-5">
               <h4 className="text-center">Other</h4>
               <div className="d-flex flex flex-wrap justify-content-center skill-container mt-3">
-                <i class="devicon-git-plain-wordmark colored px-1 py-3"></i>
-                <i class="devicon-heroku-original-wordmark colored px-1 py-3"></i>
-                <i class="devicon-linux-plain colored px-1 py-3"></i>
-                <i class="devicon-ubuntu-plain-wordmark colored px-1 py-3"></i>
+                <i className="devicon-git-plain-wordmark colored px-1 py-3"></i>
+                <i className="devicon-heroku-original-wordmark colored px-1 py-3"></i>
+                <i className="devicon-linux-plain colored px-1 py-3"></i>
+                <i className="devicon-ubuntu-plain-wordmark colored px-1 py-3"></i>
               </div>
             </Col>
           </Row>

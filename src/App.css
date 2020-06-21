@@ -77,6 +77,26 @@ nav a:hover {
   }
 }
 
+/* Projects */
+
+/* technology used for projects */
+.proj-tech {
+  font-size: 0.8rem;
+}
+
+.proj-img {
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.proj-img img {
+  min-height: 155px;
+  max-height: 200px;
+}
+.proj-img img:hover {
+  transform: scale(1.1);
+}
+
 /* Contact */
 
 .info-box a {
