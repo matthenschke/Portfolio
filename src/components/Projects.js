@@ -18,8 +18,8 @@ const Projects = () => {
           </span>
         </h1>
         <Row className="justify-content-around">
-          <Col md={4}>
-            <Card className="shadow mb-5 text-center">
+          <Col md={4} className="mb-5">
+            <Card className="shadow text-center h-100">
               <div className="proj-img">
                 <Card.Img variant="top" src={LyricImg} alt="lyric analysis" />
               </div>
@@ -60,8 +60,8 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card className="shadow mb-5 text-center">
+          <Col md={4} className="mb-5">
+            <Card className="shadow mb-5 text-center h-100">
               <div className="proj-img">
                 <Card.Img variant="top" src={MH_KicksImg} alt="M.H. Kicks" />
               </div>
@@ -92,8 +92,8 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card className="shadow mb-5 text-center">
+          <Col md={4} className="mb-5">
+            <Card className="shadow mb-5 text-center h-100">
               <div className="proj-img">
                 <Card.Img variant="top" src={BBoardImg} alt="lyric analysis" />
               </div>
@@ -132,8 +132,8 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card className="shadow mb-5 text-center">
+          <Col md={4} className="mb-5">
+            <Card className="shadow my-5 text-center h-100">
               <div className="proj-img">
                 <Card.Img variant="top" src={StockImg} alt="lyric analysis" />
               </div>
@@ -173,8 +173,8 @@ const Projects = () => {
             </Card>
           </Col>
         </Row>
+        <hr className="mt-5" />
       </Container>
-      <hr />
     </div>
   );
 };
