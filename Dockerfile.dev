@@ -1,0 +1,7 @@
+FROM node:alpine
+RUN mkdir -p /usr/local/src
+EXPOSE 3000
+COPY . /usr/local/src
+WORKDIR /usr/local/src
+RUN npm install
+CMD ["npm", "start"]
