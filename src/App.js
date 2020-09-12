@@ -1,27 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import axios from "axios";
 
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Education from "./components/Education";
-import Resume from "./components/Resume";
-import Contact from "./components/Contact";
+import Header from "./components/Header";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Projects from "./components/Projects";
 
 function App() {
+  useEffect(() => {
+    const makeCall = async () => {
+      const { data } = await axios.get("/hello");
+      console.log(data);
+    };
+    makeCall();
+  }, []);
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Education />
-      <Resume />
-      <Contact />
+      <Header />
+      <Main />
       <Footer />
     </div>
   );
