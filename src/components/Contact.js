@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div id="contact" className="mt-5">
+    <section id="contact" className="mt-5">
       <Container>
         <h1 className="text-center pb-5">
           Let's Have A Chat!{" "}
@@ -47,7 +47,7 @@ const Contact = () => {
         </Row>
       </Container>
       <hr />
-    </div>
+    </section>
   );
 };
 

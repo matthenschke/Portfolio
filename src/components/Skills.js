@@ -5,8 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Skills = () => {
   return (
-    <ScrollAnimation animateIn="flipInX">
-      <div id="skills" className="mt-5">
+    <section id="skills" className="mt-5">
+      <ScrollAnimation animateIn="flipInX">
         <Container>
           <h1 className="text-center pb-5">
             Technologies{" "}
@@ -51,8 +51,8 @@ const Skills = () => {
           </Row>
         </Container>
         <hr />
-      </div>
-    </ScrollAnimation>
+      </ScrollAnimation>
+    </section>
   );
 };
 

@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Education = () => {
   return (
-    <div id="education" className="mt-5">
+    <section id="education" className="mt-5">
       <Container>
         <h1 className="text-center pb-5">
           Education{" "}
@@ -67,7 +67,7 @@ const Education = () => {
         </div>
       </Container>
       <hr />
-    </div>
+    </section>
   );
 };
 

@@ -9,7 +9,7 @@ import BBoardImg from "../imgs/backboard.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className="mt-5">
+    <section id="projects" className="mt-5">
       <Container>
         <h1 className="text-center pb-5">
           Check Out My Projects!{" "}
@@ -175,7 +175,7 @@ const Projects = () => {
         </Row>
         <hr className="mt-5" />
       </Container>
-    </div>
+    </section>
   );
 };
 

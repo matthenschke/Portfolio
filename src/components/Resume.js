@@ -3,7 +3,7 @@ import resumeDocument from "../docs/resume.pdf";
 import { Container } from "react-bootstrap";
 const Resume = () => {
   return (
-    <div id="resume">
+    <section id="resume">
       <Container>
         <h1 className="text-center py-5">
           Do You Want To See My Resume?
@@ -19,7 +19,7 @@ const Resume = () => {
         />
       </Container>
       <hr />
-    </div>
+    </section>
   );
 };
 
