@@ -21,13 +21,11 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm install && npm run build",
-    "postbuild": "react-snap"
+    "heroku-postbuild": "npm install && npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,15 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8000",
-  "devDependencies": {
-    "react-snap": "^1.23.0"
-  },
-  "reactSnap": {
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ],
-    "inlineCss": true
-  }
+  "proxy": "http://localhost:8000"
 }
