@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
 export default () => {
@@ -18,7 +19,7 @@ export default () => {
         style={{ backgroundColor: `${scroll ? "white" : "transparent"}` }}
         className="fixed-top mb-5"
       >
-        <Navbar.Brand className="logo" href="#">
+        <Navbar.Brand className="logo" as={Link} to="/">
           <span>{"< "}</span>
           Matthew Henschke
           <span>{" />"}</span>
@@ -26,22 +27,22 @@ export default () => {
         <Navbar.Toggle aria-controls="navbarNavDropdown" />
         <Navbar.Collapse id="navbarNavDropdown">
           <Nav className="ml-auto">
-            <Nav.Link href="#about" className="px-2">
+            <Nav.Link as={Link} to="/about" className="px-2">
               About
             </Nav.Link>
-            <Nav.Link href="#skills" className="px-2">
+            <Nav.Link as={Link} to="/skills" className="px-2">
               Skills
             </Nav.Link>
-            <Nav.Link href="#projects" className="px-2">
+            <Nav.Link as={Link} to="/projects" className="px-2">
               Projects
             </Nav.Link>
-            <Nav.Link href="#education" className="px-2">
+            <Nav.Link as={Link} to="/education" className="px-2">
               Education
             </Nav.Link>
-            <Nav.Link href="#resume" className="px-2">
+            <Nav.Link as={Link} to="/resume" className="px-2">
               Resume
             </Nav.Link>
-            <Nav.Link href="#contact" className="px-2">
+            <Nav.Link as={Link} to="/contact" className="px-2">
               Contact
             </Nav.Link>
           </Nav>
