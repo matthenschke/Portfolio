@@ -1,9 +1,10 @@
 import React from "react";
 import resumeDocument from "../docs/resume.pdf";
 import { Container } from "react-bootstrap";
+
 const Resume = () => {
   return (
-    <section id="resume">
+    <main>
       <Container>
         <h1 className="text-center py-5">
           Do You Want To See My Resume?
@@ -18,8 +19,7 @@ const Resume = () => {
           internalinstanceid="5"
         />
       </Container>
-      <hr />
-    </section>
+    </main>
   );
 };
 

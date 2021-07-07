@@ -11,9 +11,13 @@ body {
   font-family: "Muli", sans-serif;
 }
 
+main {
+  margin-top: 100px;
+}
 nav {
   z-index: 10000;
   position: fixed;
+  margin-bottom: 100px;
 }
 
 .navbar-nav .nav-link {
@@ -124,3 +128,9 @@ nav a:hover {
     font-size: 0.25rem;
   }
 }
+
+/* Footer */
+/* footer {
+  position: absolute;
+  bottom: 0;
+} */

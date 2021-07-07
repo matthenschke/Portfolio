@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const About = () => {
   return (
-    <section id="about" className="mt-5">
+    <main>
       <ScrollAnimation animateIn="jackInTheBox">
         <Container>
           <h1 className="text-center">
@@ -44,9 +44,8 @@ const About = () => {
             </Col>
           </Row>
         </Container>
-        <hr className="w-100" />
       </ScrollAnimation>
-    </section>
+    </main>
   );
 };
 

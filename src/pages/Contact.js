@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <section id="contact" className="mt-5">
+    <main>
       <Container>
         <h1 className="text-center pb-5">
           Let's Have A Chat!{" "}
@@ -46,8 +46,7 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
-      <hr />
-    </section>
+    </main>
   );
 };
 
