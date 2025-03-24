@@ -17,22 +17,18 @@ const About = () => {
           <Row className="mt-5">
             <Col lg={6}>
               <p>
-                Hello everyone! I am a computer science undergraduate student at
-                the College of Staten Island on a mission to become a
-                professional software engineer/developer. Powered by VS Code and
-                some coffee, I specialize in developing responsive,
-                user-friendly web applications using a variety of different
-                programming languages and frameworks as you can see under my
-                skills. You absolutely came to the right place if you are
-                looking for a computer programmer that is passionate about his
-                work and is willing to learn and grow through new experiences
-                and opportunities. Do not hesitate to reach out to me about
-                anything.
+                Hello everyone! I am a full-stack developer at IBM with a
+                passion for building scalable, efficient, and user-friendly web
+                applications. You absolutely came to the right place if you are
+                looking for an experienced software developer that is passionate
+                about his work and is willing to learn and grow through new
+                experiences and opportunities. Do not hesitate to reach out to
+                me about anything.
               </p>
               <p className="mb-5">
-                Outside of programming, you can find me playing or watching
-                basketball, working out, capturing landscape photos with my
-                camera, or catching up with some of my peers.
+                Outside of programming, I enjoy playing basketball, producing
+                music in FL Studio, exploring new countries, hiking scenic
+                trails, and snowboarding.
               </p>
             </Col>
             <Col lg={6}>
